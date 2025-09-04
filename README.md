@@ -1,58 +1,69 @@
-# 📊 Supply Chain Dashboard (Power BI)
+# Supply Chain Dashboard (Power BI)
+
 # 📌 Overview
-
-This project showcases an interactive Supply Chain Dashboard built using Power BI.
-It provides key insights into supply chain operations such as inventory management, stock turnover, vendor performance, purchase trends, and order analysis.
-
-The dashboard is designed to help businesses monitor their procurement efficiency, identify bottlenecks, and take data-driven decisions for optimizing supply chain processes.
+This project presents an interactive Supply Chain Dashboard built in Power BI.
+It leverages custom DAX measures and Power Query transformations to provide insights into costs, revenue, profit margins, and product performance.
 
 # 🚀 Features
 
-✅ Vendor performance analysis
+Data Cleaning & Transformation
 
-✅ Stock turnover ratio monitoring
+Applied Power Query to clean and structure supply chain datasets.
 
-✅ Purchase vs. actual price comparison
+Custom DAX Measures
 
-✅ Freight cost summary per vendor
+Created KPIs for Average Defect Rate, Avg Profit Margin, Order Quantity, Stock Level, Total Cost, Total Product Sold, and Total Revenue.
 
-✅ Order size distribution (Small / Medium / Large)
+Dashboard Pages
 
-✅ Interactive slicers and filters for detailed exploration
+Summary View – Key metric cards (Revenue, Profit Margin, Costs, etc.)
 
-# 🛠️ Tech Stack
+Category/Performance Analysis – Bar & column charts for product-wise and cost breakdowns
 
-Power BI – Data modeling, visualization, and dashboard design
+Quality & Efficiency – Scatter plots and tables tracking defect rates, lead times, and customer demand
 
-SQL – Data extraction, cleaning, and transformation
+Interactive Features
 
-# Excel – Initial dataset preparation
+Dynamic slicers for filtering by product type, location, and time
 
-📂 Project Structure
+Navigation buttons for smooth multi-page movement
+
+Custom-designed backgrounds for professional layout
+
+# 📊 Tech Stack
+
+Power BI – Data modeling and dashboard development
+
+Power Query – Data cleaning and transformation
+
+DAX – Custom measures for KPIs
+
+# 📂 Project Structure
 📦 SupplyChainDashboard
- ┣ 📊 SupplyChain_Dashboard.pbix   # Power BI dashboard file
- ┣ 📄 supply_chain_data.xlsx        # Raw dataset (sample)
- ┣ 📄 queries.sql                   # SQL queries used for transformation
- ┗ 📜 README.md                     # Project documentation
+ ┣ 📊 SupplyChain_Dashboard.pbix    # Power BI dashboard file
+ ┣ 📄 supply_chain_data.xlsx        # Sample dataset
+ ┣ 📜 README.md                     # Documentation
 
-# 📸 Dashboard Preview
 
-(Add a screenshot of your Power BI dashboard here)
 
-# 📈 Insights Gained
+# 📈 Key Insights
 
-High freight costs are concentrated among specific vendors
+Revenue and cost trends tracked by category and product type
 
-Stock turnover below threshold (<1) signals poor-performing vendors
+Profit margin analysis with custom DAX measures
 
-Larger order sizes contribute significantly to revenue, but small orders dominate in volume
+Defect rate and lead time monitoring for supply chain efficiency
 
-Vendor purchase price vs. actual price analysis highlights negotiation opportunities
+Stock level and order quantities displayed with interactive filtering
 
 # 🔧 How to Use
 
-Download the .pbix file and open it in Power BI Desktop
+Open the .pbix file in Power BI Desktop.
 
-Connect to your dataset (or use the provided sample Excel/SQL data)
+Connect to your dataset (or use the provided sample).
 
-Refresh the dashboard to explore interactive insights
+Navigate across pages using slicers and navigation buttons.
+
+🏁 Outcome
+
+This project transforms raw supply chain data into a business-ready dashboard, providing insights into revenue, cost efficiency, quality, and operational performance.
